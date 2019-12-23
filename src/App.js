@@ -54,15 +54,7 @@ class WeatherDisplay extends Component {
 	render() {
 		return (
 			<div>
-				<button className = "redact" onClick={() => this.openModal()}> Редактировать </button>
-				<Modal
-							isOpen={this.state.isModalOpen}
-						>
-						<textarea id="head">Заголовок</textarea>
-						<textarea id="telo">Текст</textarea>
-						<button className = "access" onClick={() => this.saveData()}> Добавить </button>
-						<button className = "break" onClick={() => this.closeModal()}> Отменить </button>
-						</Modal>
+				<button className = "redact"> Редактировать </button>
 				<button className = "redactDel" onClick = { (event) => {localStorage.removeItem(localStorage.key(localStorage.length-this.props.pos-1));
 					this.setState({activePlace : 0})}}> Удалить </button>
 				<h1 >{this.props.zip}</h1>
