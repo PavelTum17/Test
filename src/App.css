@@ -1,0 +1,83 @@
+ul.nav {
+  display : block;
+}
+button.redact {
+    margin-left: 11px;
+    margin-right: 50px;
+    margin-top: 10px;
+    width: 40%;
+}
+button.redactDel {
+    margin-left: 11px;
+    margin-right: 50px;
+    margin-top: 10px;
+    width: 40%;
+}
+div.FirstColCol{
+	margin-left: auto;
+    margin-right: auto;
+	border : groove;
+	line-height: 1.5;
+	box-sizing: inherit;
+	flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+div.SecCol{
+	padding: 5px;
+	margin-left: auto;
+    margin-right: auto;
+	border : groove;
+	line-height: 1.5;
+	box-sizing: inherit;
+	flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+div.zametka{
+	border: groove;
+}
+a.butt {
+        text-align:center;
+        font-size:13px;
+        text-decoration: none;
+        font-weight: 700;
+        padding: 3px 6px;
+        background: #eaeef1;
+        display:block;
+        
+        margin: 20px auto;
+        
+        border-radius: 3px;
+        color: rgba(0,0,0,.6);
+        text-shadow: 0 1px 1px rgba(255,255,255,.7);
+        box-shadow: 0 0 0 1px rgba(0,0,0,.2), 0 1px 2px rgba(0,0,0,.2), inset 0 1px 2px rgba(255,255,255,.7);
+}
+
+a.butt:hover, a.butt.hover {
+        background: #fff;
+}
+a.butt:active, a.butt.active {
+        background: #d0d3d6;
+        background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,0));
+        box-shadow: inset 0 0 2px rgba(0,0,0,.2), inset 0 2px 5px rgba(0,0,0,.2), 0 1px rgba(255,255,255,.2);
+}
+
+div.main{
+	max-width : 100%;
+	width : 968px;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+div.twoCol {
+	display: flex;
+}
+
+button.adding{
+	width: -webkit-fill-available;
+}
+button.access{
+	width: 76px;
+    height: 25px;
+    display: flex;
+}
